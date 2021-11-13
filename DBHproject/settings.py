@@ -20,7 +20,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-qwq+ey%n89^armu$e+s67#d5f!g_99^pcm_+bhep=kf&9^(qre'
+SECRET_KEY = 'django-insecure-5va@cg*b#5@-!7@4t56o52hzt40w$6a7@+28*&8a=va&x*pkoc'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -31,6 +31,10 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    # dota2website
+    'dota2website',
+
+    # django default
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -75,15 +79,13 @@ WSGI_APPLICATION = 'DBHproject.wsgi.application'
 
 DATABASES = {
     'default': {
-        # postgreSQL
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'postgres',
         'USER': 'postgres',
         'PASSWORD': '324247',
         'HOST': 'localhost',
-        'POST': '5432',
+        'PORT': '5433',
 
-        # django default
         # 'ENGINE': 'django.db.backends.sqlite3',
         # 'NAME': BASE_DIR / 'db.sqlite3',
     }
