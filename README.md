@@ -1,27 +1,51 @@
 # DBH-project1
 A website that recommends DOTA 2 heroes based on historical game data. 
 
-Product Description: 
-Website with features
-Feature 1: Daily top 5 hero pick/ban recommendations using player rank, frequency played, winrate, and ban rate. 
+## Product Description: 
 
-Stack:Django, Apache, postgres, Cloud hosting
+### Website with features
 
-Dev/ops: Agile
+* **Feature 1**: Daily top 5 hero pick/ban recommendations using player rank, frequency played, winrate, and ban rate. 
 
-Developer Roles:
-Uncle Brad: Product owner, scrum master
-Hoon: developer
-Daniel: developer
-Mike: Data engineer/ developer
+## Stack:
+* Django
+* Apache
+* postgres
+* Cloud hosting
 
-Unclaimed roles:UI/UX, Web API, Database management, ETL, Data scientist
+---
 
-Schedule:
-11/20/21: 	r1.s1
-12/04/21: 	r1.s2
-12/18/21: 	r1.s3
-01/08/22:	First release
+## Dev/ops: Agile/Scrum
+
+**Product Owner**: Uncle Brad
+
+**Scrum Master**: Uncle Brad
+
+**The Team**--Developers:
+* Hoon: developer
+* Daniel: developer
+* Mike: Data engineer/ developer
+
+## Unclaimed Roles
+* UI/UX
+* Web API
+* Database management
+* ETL
+* Data scientist
+
+---
+
+## Schedule:
+
+|Sprint|Review Date|
+|---|---|
+|r1.s1|11/20/21|
+|r1.s2|12/04/21|
+|r1.s3|12/18/21|
+|First Release|01/08/22|
+
+
+[s1 backlog](./backlogs/r1.s1_backlog.md#r1s1-goal)
 
 Goals:
 S1: dev environment all working in sync
