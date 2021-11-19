@@ -1,0 +1,22 @@
+AWS EC2 server set up:
+Git clone project on to local machine
+Verify django project can run on local machine
+Start EC2 instance with the HTTP port 80 exception
+download the keypair and put into project directory
+connect to instance from CLI
+set up the server once connected:
+sudo apt update
+sudo apt upgrade
+sudo apt install python3-pip python3-dev libpq-dev postgresql postgresql-contrib nginx gunicorn curl
+
+Clone repo using HTTP request with personal token instead of password:
+git clone
+activate virtual environment
+install requirements
+
+% python3 manage.py makemigrations
+% python3 manage.py migrate
+% python3 manage.py collectstatic
+
+current roadblock is actually running the server,
+getting psyco2pg errors and unable to download into the server
