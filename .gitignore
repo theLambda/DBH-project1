@@ -3,3 +3,7 @@
 .elasticbeanstalk/*
 !.elasticbeanstalk/*.cfg.yml
 !.elasticbeanstalk/*.global.yml
+/DBHproject/__pycache__/*.pyc
+/*.md0
+/dota2website/__pycache__/*.pyc
+/dota2website/migrations/__pycache__/*.pyc
